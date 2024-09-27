@@ -1,8 +1,8 @@
-# удалить все из скриптов- добавить это
-# изменить адрес ячейки
-# перейти в триггеры и установить новый
+# Удалить все из скриптов - добавить это
+# Изменить адрес ячейки
+# Перейти в триггеры и установить новый
 
-
+```javascript
 function changeTabColor() {
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
   var range = sheet.getRange("A:A"); // Замените "A:A" на ваш столбец с дедлайнами
@@ -37,3 +37,5 @@ function changeTabColor() {
 
   sheet.setTabColor(tabColor);
 }
+```
+
